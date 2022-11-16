@@ -1,0 +1,94 @@
+body{
+	background-color:whitesmoke;
+	color:black;
+	font-family: Serif;
+}
+h1,h2{
+	color: black;
+}
+li{
+	font-size:20px;
+}
+
+.Content{
+	margin-top: 10px;
+	margin-left:10px;
+}
+/*NavBar*/
+.NavBar{
+	font-family: Serif;
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:20px;
+	border-bottom: 1px solid black;
+}
+.NavBarContent{
+	justify-content:center;
+}
+
+/*Big Wrapper*/
+.Wrapper{
+	grid-gap: 20px;
+	border-top: 1px black dashed;
+	display: grid;
+	overflow: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 80%;
+}
+
+#leftPicture{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 80%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background-image: url(./me2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	border-radius: 20px;
+}
+#centerWords{
+	margin-top: 10px;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	padding-left: 10px;
+	padding-rigth: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#rightColumn{
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+/*Middle Wrapper*/
+.WorkExperience{
+	margin-top: 20px;
+	display: grid;
+	overflow: auto;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*Right Column Wrapper*/
+.RelevantExperience{
+	margin-top: 10px;
+	margin-right: 10px;
+	display: grid;
+	overflow: auto;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: .25fr .25fr 1fr 1fr 1fr 1fr;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-gap: 10px;
+}
+
+
+
+

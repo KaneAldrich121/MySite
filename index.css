@@ -1,0 +1,108 @@
+/*Page Info*/
+body{
+	background-image:linear-gradient(black,#404040);
+	color:white;
+	font-family: Serif;
+}
+img{
+	width:26%;
+	height:50%;
+}
+li{
+	font-size:20px;
+}
+
+/*OpeningInfo*/
+.OpeningInfo{
+	background-image:url(./glacier.jpg);
+	background-size:cover;
+	height:100%;
+	text-align:center;
+}
+
+/*NavBar*/
+.NavBar{
+	font-family: Serif;
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom:50px;
+	border-bottom: 1px solid black;
+}
+.NavBarContent{
+	justify-content:center;
+}
+
+/*MyInfo*/
+#HeaderInfo{
+	padding-top:;
+	color:#283940;
+}
+
+/*Resume*/
+.Wrapper{
+	margin-top:20px;
+	margin-left:10%;
+	overflow:auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	height:40%;
+	width:60%;
+
+}
+#picture{
+	border-style:solid;
+	border-color:green;
+	width:170px;
+	height:185px;
+	border-style:solid;
+	border-color:orange;
+	border-radius:200px;
+	background-color:#094705;
+	background-image:url(./me.jpg);
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+.box1{
+	display:flex;
+	justify-content:right;
+	align-items:center;
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:2;
+}
+.box2{
+	text-align:center;
+	padding-left:20px;
+	margin: auto;
+}
+#INTRO{
+	font-family:Serif;
+	font-size:40px;
+	color:orange;
+}
+
+/*Information Section*/
+.Wrapper2{
+	overflow:auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-top: 1px dotted white;
+	border-bottom: 1px dotted white;
+	height:30%;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 20% 80%;
+}
+.bottomInformation{
+	color:orange;
+	text-align:center;
+	border-left: white 1px dotted;
+	border-right: white 1px dotted;
+}
+#WorkExperienceContent{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}

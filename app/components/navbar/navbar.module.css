@@ -1,0 +1,33 @@
+@media (min-width: 601px)
+{
+    .navItem{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .NavBarClass{
+        padding: 10px 20px;
+        text-align: 'center';
+        border-bottom: 3px double black;
+    }
+}
+
+/*Phone View*/
+@media (max-width: 600px)
+{
+    .navItem{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .NavBarClass{
+        padding: 10px 20px;
+        text-align: 'center';
+        border-bottom: 3px double black;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

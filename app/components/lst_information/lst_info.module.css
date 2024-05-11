@@ -1,0 +1,66 @@
+@media(min-width: 600px)
+{
+    .grid_container{
+        display: grid;
+        row-gap: 50px;
+        width: 100%;
+    }
+    
+    .Languages{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        border-right: 1px dashed black;
+    }
+    
+    .Skills{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-left: 40px;
+        margin-right: 40px;
+        border-right: 1px dashed black;
+    }
+    
+    .Technologies{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}
+
+/*Phone View*/
+@media (max-width: 600px)
+{
+    .grid_container{
+        display: grid;
+        row-gap: 50px;
+        width: 100%;
+    }
+    
+    .Languages{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .Skills{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .Technologies{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+}

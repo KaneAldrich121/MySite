@@ -20,6 +20,11 @@ export default function ProjectsList(){
                 <div className={styles.projectText3}>
                     <Link href="https://github.com/KaneAldrich121/LibraryHelper" className={styles.projectText3}>Library Helper</Link>
                 </div>
+                <div className={styles.Job4}>
+                </div>
+                <div className={styles.projectText4}>
+                    <Link href="https://github.com/KaneAldrich121/Object-Detection" className={styles.projectText4}>Object Detection</Link>
+                </div>
             </div>
         </>
     )
